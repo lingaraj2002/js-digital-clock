@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#sec{
+    padding: 60px 0;
+}
+.container{
+    width: 40%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+.card{
+    border: 6px solid gray;
+    border-radius: 5px;
+    padding: 15px;
+}
+.row{
+    border: 2px solid gray;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+.col-1{
+    width: 80%;
+    margin: auto;
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.col-2{
+    width: 85%;
+    margin: auto;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 60px;
+    color: red;
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+}
+.col-3{
+    width: 95%;
+    margin: auto;
+    padding:15px 5px;
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.col-4{
+    width: 95%;
+    margin: auto;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 90px;
+    color: red;
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+}
+.col-5{
+    width: 85%;
+    padding:30px 10px;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.col-6{
+    width: 15%;
+    padding: 15px 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+input[type=radio]{
+    accent-color: red;
+     margin-left: 5px;
+}
+@media(max-width:690px){
+    #sec{
+        padding: 10px ;
+    }
+    .container{
+        width: 100%;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .card{
+        border: 4px solid gray;
+        padding: 10px;
+    }
+    .row{
+        border: 1px solid gray;
+        padding: 7px;
+    }
+    .col-1{
+        width: 80%;
+        margin: auto;
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+    .col-2{
+        font-size: 27px;
+    }
+    .col-3{
+        padding:10px 5px;
+        font-size: 15px;
+    }
+    .col-4{
+        border: 1px solid gray;
+        font-size: 50px;
+    }
+    .col-5{
+        width: 100%;
+        padding:15px 0px;
+        font-size: 9px;
+    }
+    .col-6{
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 10px;
+        text-align: right;
+    }
+    input[type=radio]{
+         margin-left: 0px;
+    }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="sec">
+        <div class="container">
+            <div class="card">
+                <div class="row">
+                    <div class="col-1">
+                        <span id="span1">date</span>
+                        <span id="span1">month</span>
+                        <span id="span1">year</span>
+                    </div>
+                    <div class="col-2">
+                        <span id="date"></span>
+                        <span id="month"></span>
+                        <span id="year"></span>
+                    </div>
+                    <div class="col-3">
+                        <span id="span2">hour</span>
+                        <span id="span2">minute</span>
+                        <span id="span2">second</span>
+                    </div>
+                    <div class="col-4">
+                        <span id="hour">00</span>:
+                        <span id="minutes">00</span>:
+                        <span id="second">00</span>
+                    </div>
+                    <div class="col-5">
+                        <input type="radio" name="sun" id="sun" disabled>
+                            <label for="sun">sun</label>
+                        <input type="radio" name="mon" id="mon" disabled>
+                            <label for="mon">mon</label>
+                        <input type="radio" name="tue" id="tue" disabled>
+                            <label for="tue">tue</label>
+                        <input type="radio" name="wed" id="wed" disabled>
+                            <label for="wed">wed</label>
+                        <input type="radio" name="thu" id="thu" disabled>
+                            <label for="thu">thu</label>
+                        <input type="radio" name="fri" id="fri" disabled>
+                            <label for="fri">fri</label>
+                        <input type="radio" name="sat" id="sat" disabled>
+                            <label for="sat">sat</label>
+                    </div>
+                    <div class="col-6">
+                        <input type="radio" name="am" id="am" disabled>
+                            <label for="am">am</label><br>
+                        <input type="radio" name="pm" id="pm" disabled>
+                            <label for="pm">pm</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
